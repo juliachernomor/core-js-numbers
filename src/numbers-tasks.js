@@ -607,19 +607,19 @@ function getMaxNumber(firstNumber, secondNumber) {
  * -5, 0 => -5 | -4 | -3 | -2 | -1 | 0
  * -1, 1 => -1 | 0 | 1
  */
-// function getRandomInteger(min, max) {
-//   const numbers = [];
-//   for (let i = 0; i < max; i += 1) {
-//     do {
-//       const n = Math.floor(Math.random() * (max - min + 1)) + min;
-//       const p = numbers.includes(n);
-//       if (!p) {
-//         numbers.push(n);
-//       }
-//     }
-//   }
-//   return numbers.join(" - ");
-// }
+function getRandomInteger(/* min, max */) {
+  // const numbers = [];
+  // for (let i = 0; i < max; i += 1) {
+  //   do {
+  //     const n = Math.floor(Math.random() * (max - min + 1)) + min;
+  //     const p = numbers.includes(n);
+  //     if (!p) {
+  //       numbers.push(n);
+  //     }
+  //   }
+  // }
+  // return numbers.join(" - ");
+}
 
 /**
  * Returns the length of the hypotenuse of a right triangle.
