@@ -262,10 +262,6 @@ function getCube(num) {
  *   10 => 55
  */
 function getFibonacciNumber(index) {
-  // return index <= 1
-  //   ? index
-  //   : getFibonacciNumber(index - 1) + getFibonacciNumber(index - 2);
-
   if (index <= 1) {
     return index;
   }
